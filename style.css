@@ -1,0 +1,90 @@
+div{
+    background-color: aliceblue;
+    border: 2px solid green;
+    border-radius: 10px 0 10px 0;;
+    
+}
+h1{
+    background-color: wheat;
+    text-align: center;
+    font-size: 25pt;
+    text-shadow: 1px 2px 2px black;
+    color: brown;
+}
+li{
+    background-color: bisque;
+    font-size: 20pt;
+
+}
+ol{
+    background-color: bisque;
+}
+div.box {
+    height: 300px;
+    width: 300px;
+    background-color: #bbbbaa;
+    width: fit-content;}
+    p {
+    
+    width: 75%;
+    background-color: #0088dd;
+text-align: justify;
+margin: 20px;
+padding: 5px;
+overflow: auto;
+}
+
+.mx p{
+    width: 50%;
+    height: 100px;
+    overflow: scroll;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    color: red;
+
+}
+p{
+    color: blue;
+    background-color: yellow;
+}
+.one{
+    border: 4px dotted red;
+}
+.one1{
+    border: 4px dashed rgb(192, 16, 16);
+}
+.one2{
+    border: groove  rergb(15, 158, 58)
+}.one3{
+    border: 4px ridge red;
+}.one4{
+    border: 4px inset red;
+}.one5{
+    border: 4px outset red;
+}.one6{
+    border: 4px dotted red;
+}
+.color{
+    border: 10px solid ;
+    border-top-color: red ;
+    border-left-color: green;
+    border-right-color: blue;
+    border-bottom-color: coral;
+
+}
+p {
+    width: 300px;
+    padding: 50px;
+    border: 20px solid #0088dd;}
+    p.example {
+    margin: 10px auto 10px auto;
+    text-align: left;}
+    .dis li{
+        display: inline-block;
+        margin: 20px;
+        padding: 30px;
+        background-color: pink;
+    }
