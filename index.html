@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title me icone lagia hai -->
+    <title>SS Food</title>
+    <link rel="shortcut icon" href="icon.png">
+
+    <!-- link to css -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- js link -->
+    <script src="script.js"></script>
+
+</head>
+<body>
+   
+    
+
+
+    <h1 class="main"> <img src="Image/images.png" alt="image"> SS Food</h1>
+<!-- animation lagy   -->
+
+<!-- time code -->
+<p class="datetime" style="text-align: right;">Date/Time: <span id="datetime"></span></p>
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleString();
+</script>
+
+<div class="nav">
+  <div class="imgbar">
+    <a href="https://www.facebook.com/" target="_blank"><img  src="Image/facebook.png" alt="">Facebook</a>
+  </div>
+  <div class="imgbar">
+<a href="https://www.google.com/"target="_blank"> <img  src="Image/google-logo.png" alt="">Google  </a>
+     </div>
+  <div class="imgbar">
+  <a href="https://www.youtube.com/c/sumrastudio"target="_blank"> <img  src="Image/youtube-play.png" alt="">Youtube</a>
+  </div>
+  <div class="imgbar">
+  <a href="https://www.Instagram.com/"target="_blank"> <img  src="Image/instagram-new.png" alt="">Instagram</a>
+    
+  </div>
+  
+
+</div>
+<br>
+<!-- naviaction bar -->
+<div class="navigation">
+                <a href="file:///C:/Users/saqib/Desktop/Website/index.html">Home</a>
+                <a href="#health">Health</a>
+                <a href="#food">Food</a>
+                <a href="#">Video</a>
+                <a href="#">Tech</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>  
+
+                
+</div>
+<br>
+<!-- Slideshow container -->
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 7</div>
+  <img src="Image/spic1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 7</div>
+  <img src="Image/spic22.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 7</div>
+  <img src="Image/spic33.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 7</div>
+  <img src="Image/spic4.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 7</div>
+  <img src="Image/spic5.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 7</div>
+  <img src="Image/spic6.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 7</div>
+  <img src="Image/spic7.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+
+</div>
+
+
+<!-- javascript -->
+<script>
+  var slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+  </script>
+
+  <br>
+  <div id="health" class="manufruit">
+    <img src="Image/fv.jpg" alt="pic" >
+    <br>
+    <button id="btn22" >
+      <a class="btn1" href="pic.html" target="_blank"> More </a></button>
+  </div>
+
+
+
+<br>
+
+  <div id="food" class="threepic">
+    
+    <div class="three1"> <img src="Image/orange.jpg" alt="">Orange Juice </div>
+    <div class="three1"> <img src="Image/chocolate" alt="">Cholocate Ice-Cream </div>
+    <div class="three1"> <img src="Image/05best-hungry-dish4-superJumbo-v2.jpg" alt="">Special Dish </div>
+
+  </div>
+<br>
+<!-- video start ho gi hai -->
+<div class="video">
+  <!-- ------------------------------------------ -->
+<div class="vd1">
+  <iframe width="692" height="389"
+   src="https://www.youtube.com/embed/aojJ4W13dII" 
+   title="YouTube video player" 
+   frameborder="0" allow="accelerometer; autoplay;
+    clipboard-write; encrypted-media; gyroscope;
+   picture-in-picture" allowfullscreen>
+   </iframe>
+   <br> 
+   Best Golden Snacks
+</div>
+
+<!-- video2 -->
+<div class="vd1">
+  <iframe width="692" height="389"
+   src="https://www.youtube.com/embed/aojJ4W13dII" 
+   title="YouTube video player" 
+   frameborder="0" allow="accelerometer; autoplay;
+    clipboard-write; encrypted-media; gyroscope;
+   picture-in-picture" allowfullscreen>
+   </iframe>
+   <br> 
+   Best Golden Snacks
+</div>
+
+<!-- video 3 -->
+<div class="vd1">
+  <iframe width="692" height="389"
+   src="https://www.youtube.com/embed/aojJ4W13dII" 
+   title="YouTube video player" 
+   frameborder="0" allow="accelerometer; autoplay;
+    clipboard-write; encrypted-media; gyroscope;
+   picture-in-picture" allowfullscreen>
+   </iframe>
+   <br> 
+   Best Golden Snacks
+</div>
+
+<!-- --------------------------------------------- -->
+</div>
+
+
+
+
+</body>
+</html>
